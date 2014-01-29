@@ -1,4 +1,8 @@
 #include "ashmem.h"
+#include <iostream>
+#include <sys/ipc.h>
+#include <sys/shm.h>
+
 using namespace std;
 
 int ashmem_create_region(const char* name, size_t size)

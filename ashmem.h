@@ -1,11 +1,8 @@
 #ifndef _CUTILS_ASHMEM_H
 #define _CUTILS_ASHMEM_H
 
-#include <iostream>
 #include <machine/limits.h>
 #include <unistd.h>
-#include <sys/ipc.h>
-#include <sys/shm.h>
 
 int ashmem_create_region(const char* name, size_t size);
 int ashmem_set_prot_region(int fd, int prot);
