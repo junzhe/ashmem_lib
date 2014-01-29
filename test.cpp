@@ -3,6 +3,6 @@
 using namespace std;
 
 int main(){
-	char * t = "test";
-	ashmem_create_region（t, 1);
+	char *t;
+	ashmem_create_region(t, 1);
 }
