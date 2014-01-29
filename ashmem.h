@@ -2,6 +2,7 @@
 #define _CUTILS_ASHMEM_H
 
 #include <iostream>
+#include <machine/limits.h>
 #include <unistd.h>
 #include <sys/ipc.h>
 #include <sys/shm.h>
