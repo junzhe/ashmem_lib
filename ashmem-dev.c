@@ -5,7 +5,7 @@
 
 int ashmem_create_region(const char* name, size_t size)
 {
-	shm_open("/myregion", O_CREAT, S_IRUSR);
+	shmget(1, 10, IPC_CREAT);
 	printf("%s\n", "ashmem_create_region");
 }
 
